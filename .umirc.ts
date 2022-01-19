@@ -4,6 +4,5 @@ export default defineConfig({
   nodeModulesTransform: {
     type: 'none',
   },
-
   fastRefresh: {},
 });
