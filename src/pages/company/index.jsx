@@ -39,7 +39,7 @@ export default function Page() {
       <div className={styles.banner}>
         <Banner />
         <div className={styles.banner_container}>
-          <img src={require(`../../img/company_movie.png`)} />
+          <img src={`http://yunyukeji.oss-cn-beijing.aliyuncs.com/company_movie.png`} />
           <div>
             <div className={styles.product}>
               <img src={require(`../../img/titleleft.png`)} height={34} />
