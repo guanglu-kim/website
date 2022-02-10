@@ -97,10 +97,10 @@ export default function index() {
         <div>金融一体化运维</div>
       </div>
       <div className={styles.longline}></div>
-      {/* <div className={styles.copy}>
+      <div className={styles.copy}>
         Copyrights © 2021 by uino 黑龙江省云昱科技有限公司版权所有 .
-        黑ICP备13053130号 . All Rights Reserved
-      </div> */}
+        黑ICP备2022000606 . All Rights Reserved
+      </div>
     </div>
   );
 }

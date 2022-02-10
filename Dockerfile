@@ -2,6 +2,8 @@ FROM nginx:alpine AS base
 
 RUN rm -rf /usr/share/nginx/html/*
 
+COPY /ssl /etc/nginx/conf.d/
+
 COPY default.conf /etc/nginx/conf.d/default.conf
 
 COPY /dist /usr/share/nginx/html/
