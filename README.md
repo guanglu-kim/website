@@ -28,3 +28,15 @@ docker run -d \
     --name client2 \
     --restart=always \
     registry.cn-beijing.aliyuncs.com/know/yykj:0.2
+
+
+    docker run -d \
+    -p 9200:9200 \
+    -p 9300:9300 \
+    -e "discovery.type=single-node" \
+    --name es \
+    --restart=always \
+    --network testnet \
+    --network-alias es \
+    -v /data/elasticsearch:/usr/share/elasticsearch/data \
+    docker.elastic.co/elasticsearch/elasticsearch:7.4.2
