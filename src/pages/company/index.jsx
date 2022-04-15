@@ -227,19 +227,19 @@ export default function Page() {
       <div className={styles.connect}>
         <div>
           <img src={require(`../../img/phone.svg`)} />
-          <span>联系方式：13688888888</span>
+          <span>联系方式：13030015267</span>
         </div>
         <div>
           <img src={require(`../../img/email.svg`)} />
-          <span>电子邮箱：YUNYU0451@qq.com</span>
+          <span>电子邮箱：yy13030015267@163.com</span>
         </div>
         <div>
           <img src={require(`../../img/wechat.svg`)} />
-          <span>微信方式：YUNYU0451</span>
+          <span>微信方式：17382888428</span>
         </div>
         <div>
           <img src={require(`../../img/address.svg`)} />
-          <span>公司地址：黑龙江省哈尔滨市道里区群力第四大道汇智广场704室</span>
+          <span>公司地址：黑龙江省哈尔滨市道里区群力第四大道汇智广场1301室</span>
         </div>
       </div>
       <Footer />

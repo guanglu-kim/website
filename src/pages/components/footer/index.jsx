@@ -9,11 +9,11 @@ export default function index() {
           <img src={require(`../../../img/logo.png`)} />
           <div className={styles.d1}>
             <img src={require(`../../../img/whitephone.png`)} />
-            <span>400-045-1888</span>
+            <span>13030015267</span>
           </div>
           <div className={styles.d1}>
             <img src={require(`../../../img/whiteemail.png`)} />
-            <span>yunyukeji@qq.com</span>
+            <span>yy13030015267@163.com</span>
           </div>
           <span className={styles.link}>预约产品演示</span>
         </div>
